@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283d0ee8-da9d-4e40-9ce2-8cbd153fb075" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heart_of_the_sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pirat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pirat64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatthef.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helt.py" beforeDir="false" afterPath="$PROJECT_DIR$/helt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Helt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/enemy.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +28,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oL1YsUbGdBHFbOPIevj3nY7isQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613051109438</updated>
       <workItem from="1613051112965" duration="1601000" />
+      <workItem from="1615464074475" duration="4727000" />
     </task>
     <servers />
   </component>
@@ -87,8 +93,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SpaceInvader$main.coverage" NAME="main Coverage Results" MODIFIED="1613052382173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpaceInvader$main.coverage" NAME="main Coverage Results" MODIFIED="1615468206108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

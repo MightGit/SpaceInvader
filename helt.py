@@ -1,4 +1,4 @@
-class Helt:
+class Hero:
     def __init__(self, game, x, y):
         self.x = x
         self.game = game
@@ -8,3 +8,11 @@ class Helt:
         pygame.draw.rect(self.game.screen,
                          (210, 250, 251),
                          pygame.Rect(self.x, self.y, 8, 5))
+
+
+
+ HeroImg = pygame.image.load('pirat.png')
+    HeroX = 370
+    HeroY = 480
+
+

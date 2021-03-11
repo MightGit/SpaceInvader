@@ -1,16 +1,33 @@
 import pygame
 
-class Game:
-    screen = None
-    enemy = []
-    score = []
-    helt = []
 
-    def __init__(self, width, height):
-        pygame.init()
-        self.width = width
-        self.height = height
-        self.screen = pygame.display.set_mode((width, height))
-        self.clock = pygame.time.Clock()
-        done = False
+pygame.init()
 
+screen = pygame.display.set_mode((800, 800))
+
+pygame.display.set_caption("SpaceInvader")
+icon = pygame.image.load('whatthef.PNG')
+pygame.display.set_icon(icon)
+
+
+playerImg = pygame.image.load('pirat64.png')
+playerX = 370
+playerY = 480
+
+def player():
+    screen.blit(playerImg,(playerX, playerY))
+
+
+running = True
+while running:
+
+    #Background
+    screen.fill((0, 90, 55))
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+
+    player()
+    pygame.display.update()
