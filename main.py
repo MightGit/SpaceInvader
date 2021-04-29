@@ -1,5 +1,12 @@
 import pygame
 
+from rando
+
+
+
+
+
+
 
 pygame.init()
 
