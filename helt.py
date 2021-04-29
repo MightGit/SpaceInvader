@@ -1,4 +1,4 @@
-class Hero:
+class Helt:
     def __init__(self, game, x, y):
         self.x = x
         self.game = game
@@ -11,8 +11,8 @@ class Hero:
 
 
 
- HeroImg = pygame.image.load('pirat.png')
-    HeroX = 370
-    HeroY = 480
+ HeltImg = pygame.image.load('pirat.png')
+    HeltX = 370
+    HeltY = 480
 
 

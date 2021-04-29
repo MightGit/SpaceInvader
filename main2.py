@@ -1,5 +1,8 @@
 import pygame
 
+pygame.display.set_caption("SpaceInvader")
+icon = pygame.image.load('whatthef.PNG')
+pygame.display.set_icon(icon)
 
 class Game:
     screen = None
@@ -15,7 +18,7 @@ class Game:
         self.clock = pygame.time.Clock()
         done = False
 
-        hero = Hero(self, width / 2, height - 20)
+        helt = Helt(self, width / 2, height - 20)
         generator = Generator(self)
         rocket = None
 
@@ -24,16 +27,16 @@ class Game:
                 self.displayText("VICTORY ACHIEVED")
 
             pressed = pygame.key.get_pressed()
-            if pressed[pygame.K_LEFT]:  # sipka doleva
-                hero.x -= 2 if hero.x > 20 else 0  # leva hranice plochy
-            elif pressed[pygame.K_RIGHT]:  # sipka doprava
-                hero.x += 2 if hero.x < width - 20 else 0  # prava hranice
+            if pressed[pygame.K_LEFT]:
+                helt.x -= 2 if helt.x > 20 else 0
+            elif pressed[pygame.K_RIGHT]:
+                helt.x += 2 if helt.x < width - 20 else 0
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     done = True
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE and not self.lost:
-                    self.rockets.append(Rocket(self, hero.x, hero.y))
+                    self.rockets.append(Rocket(self, helt.x, helt.y))
 
             pygame.display.flip()
             self.clock.tick(60)
@@ -49,7 +52,7 @@ class Game:
             for rocket in self.rockets:
                 rocket.draw()
 
-            if not self.lost: hero.draw()
+            if not self.lost: helt.draw()
 
     def displayText(self, text):
         pygame.font.init()
@@ -81,11 +84,12 @@ class Alien:
                 game.aliens.remove(self)
 
 
-class Hero:
+class Helt:
     def __init__(self, game, x, y):
         self.x = x
         self.game = game
         self.y = y
+
 
     def draw(self):
         pygame.draw.rect(self.game.screen,
