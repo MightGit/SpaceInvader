@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283d0ee8-da9d-4e40-9ce2-8cbd153fb075" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Heart_of_the_sea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pirat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pirat64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whatthef.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helt.py" beforeDir="false" afterPath="$PROJECT_DIR$/helt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,10 @@
       <option name="presentableId" value="Default" />
       <updated>1613051109438</updated>
       <workItem from="1613051112965" duration="1601000" />
-      <workItem from="1615464074475" duration="4727000" />
+      <workItem from="1615464074475" duration="4744000" />
+      <workItem from="1616099828845" duration="866000" />
+      <workItem from="1618486921103" duration="859000" />
+      <workItem from="1619009727676" duration="38000" />
     </task>
     <servers />
   </component>
